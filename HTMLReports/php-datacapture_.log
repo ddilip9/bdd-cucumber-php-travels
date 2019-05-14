@@ -1,0 +1,12 @@
+2019-05-15 02:18:14 INFO  HybridDriver:426 - Launching Chrome Browser...,
+2019-05-15 02:18:25 INFO  HybridDriver:203 - URL Launch Successfull: https://www.phptravels.net
+2019-05-15 02:18:25 INFO  HybridDriver:141 - Click on Element :  xpath: //span[@class='select2-chosen' and text()='Search by Hotel or City Name'] -  Successfull
+2019-05-15 02:18:26 INFO  HybridDriver:231 - Enter Text Melbourne  on Element :  xpath: //*[@id='select2-drop']/div/input] : Successfull
+2019-05-15 02:18:27 INFO  HybridDriver:173 - Explicit Wait for Displayed Element :  xpath: //*[@id='select2-drop']/ul/li/ul/li[1] -  Success 
+2019-05-15 02:18:28 INFO  HybridDriver:231 - Enter Text 01/06/2019  on Element :  xpath: //*[@id='dpd1']/div/input] : Successfull
+2019-05-15 02:18:28 INFO  HybridDriver:231 - Enter Text 07/06/2019  on Element :  xpath: //*[@id='dpd2']/div/input] : Successfull
+2019-05-15 02:18:28 INFO  HybridDriver:231 - Enter Text 2 Adults 2 Child  on Element :  xpath: //*[@id='travellersInput'] : Successfull
+2019-05-15 02:19:27 ERROR HybridDriver:156 - Error while extracting element name -> 1
+2019-05-15 02:19:27 INFO  HybridDriver:141 - Click on Element :  - -  -  Successfull
+2019-05-15 02:19:34 INFO  HybridDriver:119 - Closed Webdriver instance Successfully
+2019-05-15 02:19:34 INFO  HybridDriver:129 - Quitting Webdriver instance Successfully

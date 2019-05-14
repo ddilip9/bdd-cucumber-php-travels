@@ -1,0 +1,185 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 20,
+        "name": "This scenario is used to verify the ratings of hotels present in Melbourne and Validate them",
+        "description": "",
+        "id": "php-travels-verifying-hotel-rating\u0027s;this-scenario-is-used-to-verify-the-ratings-of-hotels-present-in-melbourne-and-validate-them;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 11076952926,
+              "status": "passed"
+            },
+            "comments": [
+              {
+                "line": 7,
+                "value": "# Landing page"
+              }
+            ],
+            "line": 8,
+            "name": "User will launch Landing page using Landing page URL \"https://www.phptravels.net\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://www.phptravels.net",
+                  "offset": 54
+                }
+              ],
+              "location": "PHPTravelsTests.user_will_launch_Landing_page_using_Landing_page_URL(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2482853689,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User will enter \"Melbourne\" in to Location search form field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Melbourne",
+                  "offset": 17
+                }
+              ],
+              "location": "PHPTravelsTests.user_will_enter_in_to_Location_search_form_field(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 228733009,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User will enter checkIn date \"01/06/2019\" in to Check in input form field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "01/06/2019",
+                  "offset": 30
+                }
+              ],
+              "location": "PHPTravelsTests.user_will_enter_checkIn_date_in_to_Check_in_input_form_field(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 264180692,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User will enter checkOut date \"07/06/2019\" in to Check Out input form field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "07/06/2019",
+                  "offset": 31
+                }
+              ],
+              "location": "PHPTravelsTests.user_will_enter_checkOut_date_in_to_Check_Out_input_form_field(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 284458222,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User will enter Number of occupancies \"2 Adults 2 Child\" in to Occupancies input form field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2 Adults 2 Child",
+                  "offset": 39
+                }
+              ],
+              "location": "PHPTravelsTests.user_will_enter_Number_of_occupancies_in_to_Occupancies_input_form_field(String)"
+            },
+            "matchedColumns": [
+              4
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 58468295806,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User will Click on search button and wait for search results",
+            "match": {
+              "location": "PHPTravelsTests.user_will_Click_on_search_button_and_wait_for_search_results()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 185164365,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User will capture the ratings of the hotel and quits the hotel",
+            "match": {
+              "location": "PHPTravelsTests.user_will_capture_the_ratings_of_the_hotel_and_quits_the_hotel()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7565306384,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User will Click on the first hotel on displayed results",
+            "match": {
+              "location": "PHPTravelsTests.user_will_Click_on_the_first_hotel_on_displayed_results()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 5,
+            "name": "@verifyHotelRatingsInMelbourne"
+          },
+          {
+            "line": 1,
+            "name": "@phptravels"
+          }
+        ]
+      }
+    ],
+    "name": "PHP Travels verifying Hotel rating\u0027s",
+    "description": "",
+    "id": "php-travels-verifying-hotel-rating\u0027s",
+    "keyword": "Feature",
+    "uri": "PHPTravels.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@phptravels"
+      }
+    ]
+  }
+]
